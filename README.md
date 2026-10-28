@@ -6,4 +6,5 @@ My first project exploring Python and economics.
 - Learn Python fundamentals
 - Understand Git and version control
 - Practice statistics and data analysis
-- Apply Python to economic problemsgit
+- Apply Python to economic problems
+Currently learning Git and version control
