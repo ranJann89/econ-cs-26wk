@@ -1,0 +1,61 @@
+# Week 1, Day 2: CS50P Conditionals & Interpreter
+
+- **Learned:** 
+  - Conditional branching (`if`, `elif`, `else`) and logical execution flow.
+  - String manipulation methods: `.lower()`, `.strip()`, `.startswith()`, and `.split()`.
+  - Type casting strings into floating-point numbers (`float()`).
+  - Formatting floating-point outputs to specific decimal places using f-strings (`{result:.1f}`).
+- **Stuck:** 
+  - Understanding operator placement vs. number conversion when parsing expressions.
+- **Next:** 
+  - CS50P Lecture 2 (Loops).
+
+---
+
+## 🛠️ Python & Git Command Cheat Sheet
+
+### 1. Terminal & Navigation
+* `python filename.py` — Executes a Python script.
+* `dir` — Lists directory contents (PowerShell).
+* `cd ..` — Moves up to the parent directory.
+
+### 2. Git Workflow
+* `git status` — Checks working tree status.
+* `git remote -v` — Verifies remote GitHub repository URLs.
+* `git add .` — Stages all changes.
+* `git commit -m "message"` — Commits staged changes.
+* `git push origin master` — Pushes commits to GitHub.
+
+### 3. String & Data Parsing
+* `string.lower()` — Converts text to lowercase.
+* `string.strip()` — Removes leading/trailing whitespace.
+* `string.startswith("val")` — Checks prefix matching.
+* `string.split()` — Chops a string into pieces by spaces.
+* `f"{value:.1f}"` — Formats numbers to 1 decimal place.
+
+### 🔀 3. Git & GitHub Setup and Workflow
+
+* **`git status`** — Checks the current state of your working tree (staged, modified, or clean).
+
+
+* **`git remote -v`** — Verifies the connected remote GitHub repository URLs for fetching and pushing.
+
+
+* **`git remote add origin <URL>`** — Links your local repository to your remote GitHub repository for the first time.
+
+
+* **`git remote set-url origin <URL>`** — Updates or cleans up your remote repository URL.
+
+
+* **`git add .`** — Stages all modified and new files in your project.
+* **`git commit -m "Your message"`** — Records a snapshot of your staged changes with a descriptive commit message.
+* **`git push origin master`** — Uploads your local commits to your remote GitHub repository on the `master` branch.
+
+---
+ # Need to go back on def function
+ # f"{value:.1f}" Needs to be covered again
+ # Get back on how to assign booleans and make them work
+                             booleans
+i=3
+while i != 0:
+                          
